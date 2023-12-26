@@ -15,6 +15,7 @@ public class UserClient {
 
     public static Response deleteUser(){
 //        return SimpleClient.post(USERS+"/" + PLAYLIST, getAccessToken(), null);
-      return response;
+        System.out.println("abcbndbn");
+        return null;
     }
 }
