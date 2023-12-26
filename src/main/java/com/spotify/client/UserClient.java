@@ -10,7 +10,7 @@ import static com.spotify.tokenManager.TokenManager.getAccessToken;
 public class UserClient {
 
     public static Response createUser(Playlist requestPlaylist){
-        return SimpleClient.post(USERS+"/31tajp4w6u4syg4evc4glc7qsubi" + PLAYLIST, getAccessToken(), requestPlaylist);
+        return SimpleClient.post(USERS+"/" + PLAYLIST, getAccessToken(), requestPlaylist);
     }
 
     public static Response deleteUser(){
